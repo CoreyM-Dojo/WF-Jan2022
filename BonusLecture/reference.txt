@@ -1,0 +1,26 @@
+<!-- Inline elements -->
+
+<a href=""></a>
+<img src="" alt="">
+<span></span>
+<button></button>
+
+<!-- These should never be outside of a form but they are also inline elements -->
+   
+<input type="text">
+<textarea name="" id="" cols="30" rows="10"></textarea>
+<label></label>
+<select name="" id=""></select>
+
+<!-- These are block level elements -->
+
+<header></header>
+<footer></footer>
+<main></main>
+<div></div>
+<p></p>
+<table></table>
+<form action=""></form>
+<ul></ul>
+<ol></ol>
+<li></li> <!--These should never be outside of list elements -->

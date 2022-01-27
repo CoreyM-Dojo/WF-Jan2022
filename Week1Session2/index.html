@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intro to CSS</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="box">
+        <div class="box-sm"></div>
+        <div class="box-sm"></div>
+    </div>
+    <h1>Hello <span>World</span></h1>
+    <p>Social Media <a href="#">Code</a></p>
+    <form class="grey-bg" action="#">
+        <div>
+            <label>First Name</label>
+            <input name="firstName" type="text">
+        </div>
+        <div>
+            <label>Last Name</label>
+            <input name="lastName" type="text">
+        </div>
+        <div>
+            <label>Age</label>
+            <input name="age" type="number"> 
+        </div>
+        <div>
+            <label>Birthday</label>
+            <input name="birthday" type="date">
+        </div>
+        <div>
+            <label>Email</label>
+            <input name="email" type="text">
+        </div>
+        <div>
+            <label>Password</label>
+            <input name="password" type="text">
+        </div>
+        <div>
+            <label>Confirm Password</label>
+            <input name="confirm" type="text">
+        </div>
+        <input type="submit" value="Submit">
+    </form>
+
+    <form action="#">
+        <label>Favorite Color</label>
+        <input type="color"> 
+
+        <p>Are you a <span id="gamer">gamer</span>?</p>
+        <label>Yes</label>
+        <input type="radio" name="question">
+        <label>No</label>
+        <input type="radio" name="question">
+
+        <p>What interests do you have? (You can choose more than 1)</p>
+        <input type="checkbox" name="interests">
+        <label>Gaming</label>
+        <input type="checkbox" name="interests">
+        <label>Reading</label>
+        <input type="checkbox" name="interests">
+        <label>Art</label>
+        <input type="checkbox" name="interests">
+        <label>Sports</label>
+
+        <p>What is your highest level of education completed?</p>
+        <select>
+            <option value="HS">High School/GED</option>
+            <option value="AS">Associate's</option>
+            <option value="BS">Bachelor's</option>
+            <option value="MA">Master's</option>
+            <option value="PHD">Doctorate or equivalent</option>
+        </select>
+        <p id="lime-bg">Comments:</p>
+        <textarea name="comments" cols="30" rows="10"></textarea>
+    </form>
+</body>
+</html>

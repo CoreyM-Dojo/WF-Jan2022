@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yellow Belt Demo</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <ul class="links">
+                <img src="images/ps-logo.png" alt="ps-logo">
+                <li>Games</li>
+                <li>Hardware</li>
+                <li>Services</li>
+                <li>News</li>
+                <li>Shop</li>
+                <li>Support</li>
+            </ul>
+            <form action="#">
+                <label>What is your favorite console?</label>
+                <select onchange="favConsole(this)" name="consoles" id="drop-down">
+                    <option value="PLAYSTATION">Playstation</option>
+                    <option value="XBOX">Xbox</option>
+                    <option value="NINTENDO">Nintendo Switch</option>
+                </select>
+            </form>
+            <form onsubmit="signIn(this)" class="search" action="#">
+                <button id="signin">Sign in</button>
+                <input type="text">
+            </form>
+        </nav>
+        <div class="main">
+            <div class="main-content">
+
+
+
+                <h1>THIS MONTH <span onmouseover="changeColor(this, 'lime')" onmouseout="changeColor(this, 'white')" id="bold-title">ON PLAYSTATION</span></h1>
+                <p>Check out this month's biggest releases along with dedicated features, guides and more.</p>
+                <button onclick="alert('you have clicked de button')">Find out more</button>
+                <div class="games">
+                    <div class="left">
+                        <img src="images/psGames-1.jpg" alt="left games">
+                        <h3>22 in '22: PS4 and PS5 games to look forward to this year</h3>
+                    </div>
+                    <div onclick="this.remove()" class="middle">
+                        <img src="images/psGames-2.jpg" alt="middle games">
+                        <h3>Fitness games for a fun workout</h3>
+                    </div>
+                    <div class="right">
+                        <img src="images/psGames-3.jpg" alt="right games">
+                        <h3>2021: The PlayStation ultimate review</h3>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

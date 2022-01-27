@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulating the DOM</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="profile">
+            <h1>Profile</h1>
+            <img onclick="hide(this)"src="images/captain-america.jpeg" alt="">
+        </div>
+        <div class="info">
+            <h3>Name: Chris Evans</h3>
+            <h3>Age: 70+</h3>
+            <h3 class="tired"  onclick="vibeCheck()">Tired?: <span id="tired">No</span></h3>
+            <button>Change Profile</button>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    display: flex;
+    /* background-color: red; */
+    /* list-style-type: none; */
+}
+
+div.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 10% auto;
+    padding: 15px;
+    background-color: beige;
+    width: 1000px;
+    height: 800px;
+}
+
+nav, div.sub-nav, div.main, main button {
+    background-color: aqua;
+}
+
+nav {
+    height: 75px;
+    /* background-color: purple; */
+    display: flex;
+    justify-content: space-between;
+}
+
+nav div.left {
+    background-color: purple;
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav div.right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: blue;
+    width: 450px;
+}
+
+div.right ul {
+    width: 250px;
+    justify-content: space-around;
+    list-style: none;
+    align-items: center;
+}
+li#profile {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: grey;
+}
+
+div.sub-nav {
+    display: flex;
+    justify-content: space-around;
+    height: 75px;
+}
+
+div.sub-nav ul {
+    list-style: none;
+    display: flex;
+    width: 600px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div.sub-nav div.right {
+    display: flex;
+    align-items: center;
+    width: 200px;
+    justify-content: space-around;
+}
+
+div.sub-nav div.right div {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: green;
+}
+
+div.main {
+
+}
+
+main button {
+
+}
+
+img {
+    width: 500px;
+}

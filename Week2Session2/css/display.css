@@ -1,0 +1,59 @@
+/* Different selectors from specific to no-specific  */
+
+/* * */
+/* body */
+
+body {
+    height: 800px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Tag names  */
+p {
+    color: purple;
+}
+
+
+/* classes */
+.green {
+    color: green;
+}
+/* ids */
+#red-text {
+    color: red;
+}
+
+div.container {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    background-color: beige;
+    height: 600px;
+    width: 1000px;
+}
+
+div.block {
+    background-color: aqua;
+    height: 300px;
+    width: 300px;
+}
+
+div.circle {
+    /* display: none; */
+    /* position: absolute; */
+    /* top: 50px; */
+    background-color: lime;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin-left: -75px;
+}
+
+div.block-2 {
+    background-color: purple;
+    height: 300px;
+    width: 300px;
+}

@@ -1,0 +1,42 @@
+class User {
+    id int
+    name string
+    messages PrivateMessage[]
+
+}
+
+class Message {
+    id int
+    content
+    users User[]
+}
+
+class PrivateMessage {
+    id int  
+    content string
+    sender User
+    receiver User
+}
+
+class UserPrivateMessage {
+    id
+    senderId
+    receiverId
+}
+
+(session_id)
+(receiverId) 
+[Lorem]
+[button]
+
+form = {
+    content: lorem,
+    sender: session["user_id"],
+    receiver: receiver 
+}
+
+SERVICE:
+    createPM()
+
+
+
