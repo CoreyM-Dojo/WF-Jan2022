@@ -1,10 +1,12 @@
 # Advanced JS
-- Loops (While and for)
-- Conditionals
 - built-ins
     - Array Functions
     - String functions
     - Other functions
+
+- Loops (While and for)
+- Conditionals
+- switch
 - Event Listeners
 
-- Possibly a little jquery and Arrow functions
+- Possibly Arrow functions & ES6+
